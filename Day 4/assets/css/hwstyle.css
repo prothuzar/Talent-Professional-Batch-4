@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: #ffa500; */
+}
+
+img {
+    width: 100%;
+}
+
+/*----------------------- header -----------------------*/
+header {
+    background-color: #ffa500;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    color: white;
+    /* border: 1px solid white; */
+    /* width: 100%; */
+    justify-content: space-between;
+    /* margin: 0 auto; */
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li {
+    width: calc(100% / 3);
+    text-align: center;
+    border-right: 1px solid #fff;
+    padding: 10px;
+
+}
+
+nav ul li:last-child {
+    border-right: 0;
+}
+
+
+
+/* -----------------------main -----------------------*/
+.product-box {
+    display: flex;
+    gap: 20px 16px;
+    flex-wrap: wrap;
+}
+
+.pd-box {
+    width: calc(100% / 3 - 12px);
+}
+
+.pd-box a {
+    display: block;
+    width: 258px;
+    border: 1px solid orange;
+    background-color: orange;
+    text-align: center;
+    padding: 4px;
+    transform: skewX(-15deg);
+    box-shadow: 0px 1px 5px 1px red;
+    width: 100%;
+}
+
+section {
+    padding: 40px 0;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+}
+
+.faq-box dt {
+    background-color: red;
+    padding: 8px;
+    color: white;
+
+}
+
+.faq-box dt span {
+    float: right;
+}
+
+.faq-box dd:nth-of-type(1n+2) {
+    display: none;
+}
+
+
+
+.main-container {
+    /* width: 1000px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    gap: 10px;
+    justify-content: space-between; */
+
+}
+
+.se2 {
+    margin: 10px;
+    padding: 10px;
+    width: 1200px;
+
+}
+
+
+/* .section2 div {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    margin: 10px auto;
+
+
+} */
+
+
+
+
+body {
+    /* width: 1200px;
+    margin: 0 auto; */
+}
+
+.section2 {
+    background-color: rgb(234, 230, 224);
+}
+
+
+
+.bg-box {
+    background-image: url(../img/download.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 40px 60px;
+    background-attachment: scroll;
+}
+
+.section3 ul li::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: rgb(200, 93, 27);
+    position: absolute;
+    left: 0;
+    top: 8px;
+
+}
+
+
+.section3 ul li {
+    position: relative;
+    padding-left: 16px;
+}
+
+
+
+
+/* .box1 {
+    width: 25%;
+    height: 400px;
+    border: 1px solid red;
+    padding: 10px;
+    margin: 20px;
+    box-sizing: border-box;
+    gap: 20px;
+    justify-content: space-between;
+
+} */
+
+.sale-card-body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+
+}
+
+.cardsale {
+    background-color: rgb(246, 237, 237);
+    width: calc((100% / 3) - 16px);
+
+}
+
+.sale-title h4 {
+    font-size: 30px;
+    text-align: center;
+
+
+}
+
+.sale-title span {
+    font-size: 20px;
+}
+
+.sale-body ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.sale-body ul li {
+    position: relative;
+    padding-left: 16px;
+    border-bottom: 0.5px solid black;
+    padding: 5px 25px;
+}
+
+.sale-body ul li::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: rgb(200, 93, 27);
+    position: absolute;
+    left: 0px;
+    top: 8px;
+
+
+}
+
+.sale-body {
+    padding: 30px 10px;
+    text-align: center;
+    margin: 20px 20px;
+}
+
+.text-box {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    margin-bottom: 26px;
+    border-radius: 50px;
+}
+
+.sale-title-html {
+    background-color: orange;
+    font-size: 48px;
+    text-align: center;
+    padding: 60px 0px;
+    color: white;
+    clip-path: inset(0 round 0 0 50% 50%);
+}
+
+.sale-title {
+    background: #14c29a;
+}
+
+.sale-title {
+    background: rgb(1, 4, 1);
+}
+
+.js,
+.pc3 {
+    background: black;
+}
+
+.btn-html {
+    width: 150px;
+    background: orange;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+.btn6 , .pc3 {
+    background: black;
+
+}
+
+.btn6 a,
+.btn5 a,
+.btn4 a {
+    color: #e6dddd;
+}
+.pc3  {
+    
+    background-color: black;
+    padding: 10px;
+    
+}
+.pc3 a {
+    text-decoration: none;
+    color: white;
+}
+.sale-title {
+    width: 100%;
+    background: orange;
+    padding: 15px;
+    margin: 0 auto;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 50% 100%, 0 50%);
+
+}
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 20px;
+    
+}

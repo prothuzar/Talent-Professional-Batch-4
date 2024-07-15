@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "roboto" "archivo";
+}
+p {
+    font-size: 16px;
+}
+h1 {
+    font-size: 81;
+}
+p
+* {
+ box-sizing: border-box;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+header{
+    background-image: url(./../../img/bg1.png);
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.bg1 {
+    display: flex;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.nav_left, .nav_right {
+display: flex;
+list-style: none;
+
+}
+.sign-in {
+    border: 1px solid white;
+    border-radius: 10px;
+    
+}
+nav ul li {
+    margin-left:5px;
+}
+.bg-box {
+    width: 528px;
+    height: 388px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    margin: auto;
+    transform: translate(50px 50px);
+
+}           

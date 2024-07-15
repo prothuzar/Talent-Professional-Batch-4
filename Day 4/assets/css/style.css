@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Roboto", "Montserrat" sans-serif;
+    font-size: h1-48px, h2-48px, h3-48px, h4-48px, h5-18px;
+}
+
+/* h1 {
+    font-size: 48px;
+}
+strong {
+ font-weight: bold;
+}
+em {
+    font-style: italic;
+} */
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.bl {
+    font-weight: bold;
+
+}
+
+.it {
+    font-style: italic;
+
+}
+
+h1 {
+    text-align: center;
+    color: rgb(129, 127, 255);
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 5px 3px 2px rgb(127, 180, 146);
+}
+
+:root {
+    --black: #000;
+}
+
+.secpara {
+    text-align: center;
+}
+
+.textbox p:nth-of-type(1) {
+    text-indent: 20px;
+}
+
+.text-overflow {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: blue;
+    color: white;
+    box-sizing: border-box;
+    /* background-image: ; */
+}
+
+.bg-box {
+    background-image: url(../img/download\ \(1\).jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    border: 1px solid red;
+    background-size: auto;
+    background-position: 40px 60px;
+    background-attachment: scroll;
+}
+
+.element {
+    background: red url()
+}
+
+.css-box {
+    /* width: calc((100%/4) -16px); */
+    width: 50%;
+    border: 1px solid red;
+    padding: 10px;
+    margin: 20px;
+    box-sizing: border-box;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.flex-box {
+    display: flex;
+    flex-wrap: wrap;
+
+}

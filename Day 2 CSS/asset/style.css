@@ -1,0 +1,58 @@
+body{
+    background-color: gray;
+}
+
+.container {
+background:linear-gradient(136deg , rgb(28, 6, 6),  rgb(235, 14, 51));
+width:360px;
+height:100%;
+margin:0 auto;
+border-radius: 10px;
+color: white;
+
+}
+
+h1{
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding: 25px 0px;
+   
+    
+}
+form {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.footer-text {
+    margin-bottom: 20px;
+}
+form input, select{
+    width: 100%;
+    padding:6px;
+    
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+button {
+    text-align: center;
+    margin: 0 auto;
+    background: linear-gradient(-134deg , rgb(233, 31, 31),  rgb(32, 16, 22));
+    width: 100px;
+    color: white;
+}
+button:hover {
+    background: pink;
+}
+p{
+    border-bottom: 1px solid white;
+    padding: 5px;
+    
+}
+.gen input {
+    width: 10px;
+}
+.lang input {
+    width: 10px;
+}
+

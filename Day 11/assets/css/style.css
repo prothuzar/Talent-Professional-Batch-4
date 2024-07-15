@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap");
+body {
+  min-height: 100% vh;
+  background-color: #37231f;
+  color: white;
+  font-family: "Hindi Siliguri", sans-serif;
+}
+
+header {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  position: relative;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+nav span {
+  color: red;
+}
+nav ul {
+  display: flex;
+  position: absolute;
+  right: 30px;
+  gap: 30px;
+}
+nav ul li {
+  list-style: none;
+}
+
+nav a::before {
+  content: "";
+  top: 18px;
+  height: 0.2rem;
+  width: 1.5em;
+  background-color: white;
+  position: absolute;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.banner .content {
+  width: 600px;
+  height: 600px;
+  margin-top: 50px;
+  gap: 20px;
+}
+.banner .content .cm-btn {
+  padding: 20px;
+  text-decoration: none;
+  border: 1px solid #fe974c;
+  display: inline-block;
+}
+.banner .content .content-btn1 {
+  background-color: #fe974c;
+  color: black;
+}
+.banner .content .content-btn2 {
+  color: #fe974c;
+  margin-left: 20px;
+}
+.banner .content .icon a {
+  background-color: white;
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.banner .content .icon a i {
+  font-size: 20px;
+  color: black;
+}
+.banner .content .icon a:nth-child(2) {
+  margin: 0 20px;
+}
+
+.span__color,
+.active {
+  color: #fe974c;
+}
+
+.banner .content p {
+  margin: 20px 0px;
+}/*# sourceMappingURL=style.css.map */

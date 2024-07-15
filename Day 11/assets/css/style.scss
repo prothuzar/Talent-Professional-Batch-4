@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+@import "variable.scss";
+
+body {
+    min-height: 100%vh;
+    background-color: $primary-color;
+    color: white;
+    font-family: $siliguri-font;
+    font-size: 18px;
+}
+
+header {
+
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+nav {
+    display: flex;
+    position: relative;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    span {
+        color: red;
+    }
+
+    ul {
+        display: flex;
+        position: absolute;
+        right: 30px;
+        gap: 30px;
+
+        li {
+            list-style: none;
+
+        }
+
+    }
+}
+
+nav a::before {
+    content: "";
+    top: 18px;
+    height: 0.2rem;
+    width: 1.5em;
+    background-color: white;
+    position: absolute;
+
+}
+
+
+
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .content {
+        width: 600px;
+        height: 600px;
+        margin-top: 50px;
+        gap: 20px;
+        .icon {
+            a {
+                background-color: white;
+                display: inline-block;
+                margin-top: 30px;
+                padding: 20px;
+                border-radius: 10px;
+
+                i {
+                    font-size: 20px;
+                    color: black;
+                }
+
+            }
+
+            a:nth-child(2) {
+                margin: 0 20px;
+            }
+
+        .cm-btn {
+            padding: 20px;
+            text-decoration: none;
+            border: 1px solid $secondary-color;
+            display: inline-block;
+
+
+        }
+
+        .content-btn1 {
+            background-color: $secondary-color;
+            color: black;
+
+        }
+
+        .content-btn2 {
+            color: $secondary-color;
+            margin-left: 20px;
+        }
+
+        
+
+        }
+
+    }
+
+
+}
+
+.span__color,
+.active {
+    color: $secondary-color;
+}
+
+
+
+
+
+
+.banner {
+    .content {
+        p {
+            margin: 20px 0px;
+        }
+    }
+}

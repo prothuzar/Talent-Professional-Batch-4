@@ -1,0 +1,50 @@
+.box1 {
+    width: 600px;
+    height: 400px;
+    background-color: purple;
+    color: white;
+    position: relative;
+    
+}
+img {
+    position: absolute;
+    
+    bottom: 0;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.flower {
+z-index: 2;
+width: 200px;
+position: absolute;
+}
+ul {
+    list-style-type: square;
+}
+.b {
+    list-style-image: url('./../img/ls.png');
+}
+table {
+    /* border-collapse: separate; */
+    width: 100%;
+    /* border-spacing: 10px; */
+     border-collapse: collapse;
+    
+
+}
+td, th {
+    border: 1px solid;
+    padding: 4px;
+    text-align: center;
+    vertical-align: bottom;
+}
+th:nth-child(1) {
+    width: 10%;
+    height: 200px;
+}
+
+th:nth-child(2) {
+    width: 30%;
+}

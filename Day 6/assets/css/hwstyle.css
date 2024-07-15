@@ -1,0 +1,74 @@
+.container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+}
+    
+
+img {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    z-index: 1;
+    
+    
+}
+.layer {
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    z-index: 2;
+    background-color: rgb(224, 217, 217);
+    opacity: 0.5;
+    text-align: center;
+    margin-bottom: 50%;
+    
+}
+.text {
+    position: absolute;
+    color: rgb(244, 238, 238);
+    left: 40%;
+    top: 60%;
+    z-index: 3;
+    font-size: 50px;
+}
+table {
+    border-collapse: collapse;
+    width: 500px;
+    cursor: pointer;
+    
+}
+
+td,th,tr {
+    border: 1px solid rgb(223, 216, 216);
+    padding: 10px;
+    
+}
+th {
+    background-color: green;
+    color: white;
+}
+tr:nth-of-type(2n+2) { 
+    background-color: lightgray;
+
+
+}
+tr:hover {
+background-color: lightgray;
+}
+.sq {
+    list-style-type: square;
+    list-style: none;
+}
+.out {
+    list-style-position: outside;
+    list-style-type: upper-alpha;
+}
+.in {
+    list-style-position: inside;
+    list-style: lower-alpha;
+}
+.img {
+    list-style-image: url(/assets/img/icon.png);
+}
+
